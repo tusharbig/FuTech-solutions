@@ -1,0 +1,8 @@
+name = "futech-chat"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://YOUR-USERNAME.github.io"   # origin only, no path
+MODEL = "claude-haiku-5-5"
+# Secret (not stored here): wrangler secret put ANTHROPIC_API_KEY
